@@ -1,0 +1,343 @@
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+
+
+}
+
+
+h3{
+  color: #007880;
+
+}
+
+ .colored-section{
+background-color:#007880;
+
+
+}
+
+
+
+
+/* Navigation bar  */
+
+.nav-font{
+  font-size: 14px;
+}
+
+.navbar-align{
+  text-align: right;
+}
+
+
+
+/*Sign up image */
+
+
+.col-lg-6{
+  padding: 0;
+
+}
+
+#Signup-page .container-fluid{
+  padding:0 17% 7%;
+  background-color: #022C43;
+  text-align: left;
+}
+
+.container-fluid {
+  padding:7% 15%;
+  
+}
+
+.main-image{
+width: 100%;
+object-fit: cover;
+border-radius: 3% 0 0 3%;
+filter: brightness(80%);
+
+}
+
+.logo-image{
+  width: 15%;
+  border-radius: 100%;
+  margin-top: 2px;
+}
+
+
+
+/* Form */
+
+.form-signin .form-control {
+  
+  box-sizing: border-box;
+  height: auto;
+  padding: 10%;
+  font-size: 16px;
+
+
+}
+
+
+.formBg{
+  padding: 20px 20px;
+  background-color: #007880;
+  border-radius: 0 3% 3% 0 ;
+  text-align: center;
+}
+
+
+
+.subscribe{
+  background: #022C43;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.subscribe:hover {
+  background: #055E68;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+/*Images */
+
+
+.image{
+ width: 30%;
+ padding: 2% 0 0 5%;
+ 
+
+
+}
+
+.image-align{
+  text-align: left;
+}
+
+
+/*Second Section ---------------------------------*/
+
+
+
+.info-edit{
+  border-radius: 50%;
+  background-color:#007880;
+ line-height: 1.5em;
+ padding: 30px;
+ color:#ffffff;
+ border: 10px solid #ffffff;
+ vertical-align: middle;
+ 
+}
+
+.fav-edit{
+  font-size: 2rem;
+  color: #CAF0F8;
+  margin-bottom: 1rem;
+}
+
+.fav-edit:hover{
+  color: #90E0EF;
+}
+
+
+/*Feedback Section ------------------------------------------*/
+
+.feedback-img{
+  width: 30%;
+  border-radius: 100%;
+  padding: 5px;
+
+}
+.carousel-bg
+{
+  padding: 0 2%;
+}
+
+
+.carousel-text{
+   font-size:12px;
+   color:#ffffff;
+ 
+ 
+}
+
+.readers-heading{
+  padding: 3% 17% 0;
+  margin: 0;
+  text-align: left;
+  color: white;
+}
+
+
+.subscribe-section
+{
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 4px 6px 10px grey;
+  padding: 20px 0 ;
+  text-decoration: none;
+
+ }
+
+ .sec-heading{
+  color: #007880;
+ }
+
+#copyright .container-fluid{
+  padding: 2% 17%;
+}
+
+.favicon-edit{
+  padding: 0 10px;
+}
+
+.copyright-text{
+  font-size: 12px;
+  color:#DAEAF1;
+}
+
+
+/* Failure page */
+.btn-try{
+  display: block;
+}
+
+
+.jumbo{
+  color: black;
+  text-align: left;
+}
+
+
+/*-------------About -------------------*/
+
+.about-heading{
+color:#2F8F9D;
+text-align: left;
+font-weight: 700;
+font-size: 3rem;
+}
+
+.about-text{
+  color:black;
+  text-align: justify;
+}
+
+#aboutUs{
+  background-color: #B3E8E5;
+}
+
+.back-to-homepage{
+  background-color: #3BACB6;
+  padding: 10px;
+  color:#fff;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow: 4px 6px 8px #F2F2F2;
+}
+
+.back-to-homepage:hover{
+  color:#fff;
+  background-color:#2F8F9D; 
+}
+
+.btn-align{
+  text-align: right;
+}
+
+
+
+
+
+
+/*Media* --------------------------------------------------*/
+
+@media(max-width: 700px)
+{
+
+  #Signup-page .container-fluid{
+    padding:10%;
+  }
+
+  .formBg{
+    position: absolute;
+    border-radius: 3%;
+    background-color:#11ffee00; 
+    width: 80%;
+    text-align: center;
+      
+  }
+
+  .logo-image{
+    margin-top: 1px;
+    
+  }
+
+  .main-image{
+    opacity: 0.6;
+    border-radius: 3%;
+  }
+
+  .subscribe{
+    background-color: #055E68;
+  }
+
+  .subscribe:hover{
+   
+   background-color: #022C43;
+  }
+
+  input[type=text],input[type=email],input[type=text]:focus,input[type=email]:focus {
+  border: none;
+  border-bottom: 2px solid grey ;
+  background-color:#11ffee00;
+  color:white;
+  box-shadow: none; /* to remove blue box around input field while clicking   */
+}
+
+::-webkit-input-placeholder { 
+  color: white !important;
+  }
+
+  .info-edit{
+   padding: 20px;
+  line-height: 2em;
+  }
+
+  .space {
+    padding:0 18% 0;
+}
+
+.feedback-img{
+  padding: 0;
+}
+
+
+
+
+
+
+  
+
+
+
+}
+
+
+
+
+
+
+
+
