@@ -4,7 +4,11 @@
 
 Click to open [Wander with Wonder](https://boiling-falls-53657.herokuapp.com/)
 
-<img src="public/images/image01.png" width=400px>
+<img src="public/images/image01.png" width=600px>
+<br>
+<img src="public/images/image02.png" width=600px>
+<br>
+<img src="public/images/image03.png" width=600px>
 <br>
 
 ### Structure
@@ -14,12 +18,9 @@ Click to open [Wander with Wonder](https://boiling-falls-53657.herokuapp.com/)
 
 ### Environment variable
 
-```API_KEY``` Api key provided by mailchimp
-```SERVER```  Server provided by mailchimp
-```LIST_ID``` List Id provided by mailchimp
-
-
-
+1. ```API_KEY``` Api key provided by mailchimp 
+2. ```SERVER```  Server provided by mailchimp
+3. ```LIST_ID``` List Id provided by mailchimp
 
 ## Getting Started
 
@@ -27,8 +28,6 @@ Click to open [Wander with Wonder](https://boiling-falls-53657.herokuapp.com/)
 
 1. To install all dependencies in the package.json
    ```npm install```
-
-
 
 2. To run the application
    ```npm start```
